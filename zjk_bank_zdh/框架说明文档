@@ -1,0 +1,28 @@
+config文件夹：用于存放框架配置信息
+    config文件：ini文件，用于记录配置信息，如连接数据库的信息
+
+test_case：用于存放测试用例自动化脚本
+
+test_data：用于存放测试用例需要的数据
+    test_login_api:用于存放接口测试数据
+    test_login_gui:用于存放web测试数据
+
+test_element:用于存放web端的页面控件信息
+    element.ini:用ini文件存放页面元素信息
+
+test_report:存放脚本运行的报告，日志
+
+tools：存放可以公用的工具
+    image文件夹：存放图像识别的图像
+    image模块：open_cv图像识别方法
+    common.py:公共模块，用来存放公用工具。
+    connect：数据库的连接与操作模块
+    dirve：单例模式获取dirver工具，以及寻找元素，输入，判断元素是否存在，下拉框指定与随机选择方法
+    read_excel:读取test_data中的excel文件信息，excel文件必须按指定格式书写
+
+upper_tools:调用tools中的工具组成高等工具
+    uppertools:input对输入框进行输入操作
+page_part:用于存储对不同页面的控件元素的操作
+
+
+
